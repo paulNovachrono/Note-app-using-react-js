@@ -92,7 +92,7 @@ const App = () => {
   </div>
 
   <a 
-    className='absolute bottom-5 left-5 bg-white/20 px-5 py-2 rounded-xl border border-white/30 text-white text-xl active:scale-95 hover:bg-white/30 rotate-5 hover:rotate-0 transition-all ease-in-out duration-500 '
+    className='absolute bottom-5 left-5 bg-white/20 px-5 py-2 rounded-xl border border-white/30 text-white text-xl active:scale-95 hover:bg-white/30 rotate-5 hover:rotate-0 transition-all ease-in-out duration-500 shadow-2xl'
     href="https://github.com/paulNovachrono/Note-app-using-react-js">Show your Love </a>
 
 </div>
