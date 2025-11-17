@@ -34,10 +34,10 @@ const App = () => {
 
   return (
     <div 
-    className="min-h-screen w-full bg-rose-500 flex flex-col items-center py-10 md:py-20 overflow-y-auto">
+    className="min-h-screen w-full bg-rose-500 flex flex-col items-center py-10 md:py-20 overflow-y-auto relative">
 
   {/* heading for form */}
-  <div className="w-full max-w-2xl px-6">
+  <div className="w-full max-w-2xl px-6 ">
     <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
       Write your thoughts here!
     </h2>
@@ -70,6 +70,7 @@ const App = () => {
       </button>
 
     </form>
+    
   </div>
 
   {/* Notes Section */}
@@ -89,6 +90,10 @@ const App = () => {
       {/* Render multiple notes */}
     </div>
   </div>
+
+  <a 
+    className='absolute bottom-5 left-5 bg-white/20 px-5 py-2 rounded-xl border border-white/30 text-white text-xl active:scale-95 hover:bg-white/30 rotate-5 hover:rotate-0 transition-all ease-in-out duration-500 '
+    href="https://github.com/paulNovachrono/Note-app-using-react-js">Show your Love </a>
 
 </div>
 
